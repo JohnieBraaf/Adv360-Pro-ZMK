@@ -79,11 +79,11 @@
 
         layer_colemak_dh {
             bindings = <
- &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &tog 1                                                  &tog 3  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp EQUAL
-    &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans        &trans     &trans
-    &trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans                  &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans     &trans
-    &trans        &trans        &trans        &trans        &trans        &trans                            &trans                  &trans                        &trans        &trans        &trans        &trans        &trans     &trans
-    &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans        &trans     &trans
+      &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                   &tog 1                                                                                          &tog 3  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0         &kp MINUS
+        &kp TAB         &kp Q         &kp W           &kp F            &kp P         &kp B                   &tog 0                                                                                    &kp C_VOL_UP         &kp J         &kp L           &kp U             &kp Y      &kp SEMICOLON     &kp BACKSLASH
+        &kp ESC         &kp A         &kp R           &kp S            &kp T         &kp G                   &trans  &kp LEFT_CONTROL  &kp LEFT_ALT                   &kp LEFT_WIN  &kp RIGHT_CONTROL  &kp C_VOL_DN         &kp M         &kp N           &kp E             &kp I              &kp O  &kp SINGLE_QUOTE
+ &kp LEFT_SHIFT         &kp Z         &kp X           &kp C            &kp D         &kp V                                                 &kp HOME                    &kp PAGE_UP                                          &kp K         &kp H       &kp COMMA        &kp PERIOD          &kp SLASH   &kp RIGHT_SHIFT
+          &mo 2     &kp EQUAL      &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BACKSPACE        &kp DELETE       &kp END                  &kp PAGE_DOWN          &kp ENTER     &kp SPACE                &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET             &mo 2
             >;
         };
 
